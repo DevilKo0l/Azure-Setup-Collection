@@ -1,9 +1,173 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T13:32:28.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" version="22.0.6" etag="k9PD9ahera8jxUH19fYq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T14:19:50.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="Yv3EefmKagXx3qmsqTKh" version="22.0.6" type="github">
   <diagram name="Page-1" id="8ncIQd4EsON66UXEjGX-">
-    <mxGraphModel>
+    <mxGraphModel dx="2088" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-1" target="nsrOeiSxjgedOIbC0Rzh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nsrOeiSxjgedOIbC0Rzh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1312.6666666666665" y="180" as="sourcePoint" />
+            <mxPoint x="1160" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-1" value="is WEBSITE_DNS_SERVER Set?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="30" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-2" target="nsrOeiSxjgedOIbC0Rzh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-2" target="nsrOeiSxjgedOIbC0Rzh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-2" value="is WEBSITE_DNS_SERVER available?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="320" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-3" target="nsrOeiSxjgedOIbC0Rzh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-3" target="nsrOeiSxjgedOIbC0Rzh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-3" value="Is Custom DNS Configured in VNET" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="2001" y="340" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-4" target="nsrOeiSxjgedOIbC0Rzh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-4" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Is WEBSITE_ALWAYS_FALLBACK_TO_PUBLIC_DNS &lt;br&gt;set to 1&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="1070" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-5" target="nsrOeiSxjgedOIbC0Rzh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-5" target="nsrOeiSxjgedOIbC0Rzh-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-5" value="Operating System" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="625" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-6" target="nsrOeiSxjgedOIbC0Rzh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-6" target="nsrOeiSxjgedOIbC0Rzh-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-6" value="Is First DNS set in VNET available" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1020" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-9" value="&lt;font color=&quot;#ffffff&quot;&gt;Will use WEBSITE_DNS_SERVER&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="390" y="690" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-12" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Will use Azure DNS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="815" y="1430" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-13" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;DNS Resolution fail&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="1430" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-20" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Use DNS 0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1430" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-21" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Will use Azure DNS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="720" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="578" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;YES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;YES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="578" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="578" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;YES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="955" y="1295" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="1290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-30" target="nsrOeiSxjgedOIbC0Rzh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-30" target="nsrOeiSxjgedOIbC0Rzh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-30" value="Is WEBSITE_DNS_ALT_SERVER available?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="608" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-32" value="&lt;font color=&quot;#ffffff&quot;&gt;Will use WEBSITE_DNS_ALT_SERVER&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1150" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;YES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="980" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;NO&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="980" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-37" value="Is second DNS set in vnet available" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="1350" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-41" value="LINUX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="908" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-42" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Sort the list of DNS servers in VNET&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="3310" y="1130" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-44" value="WINDOW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="908" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-45" target="nsrOeiSxjgedOIbC0Rzh-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nsrOeiSxjgedOIbC0Rzh-45" target="nsrOeiSxjgedOIbC0Rzh-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-45" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="1375" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-46" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Use DNS0 in sorted list&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1825" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-47" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="3530" y="1730" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-48" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Will use Azure DNS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="3360" y="2185" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-49" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Will use Azure DNS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="3840" y="2185" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-50" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;YES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1295" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-53" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;USE DNS 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="2125" y="1825" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-54" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Will use Azure DNS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="1825" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-55" value="Is second DNS set in VNET available?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="2665" y="2090" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-56" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Will use Azure DNS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="2445" y="2490" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nsrOeiSxjgedOIbC0Rzh-57" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ffffff&quot;&gt;Will use Azure DNS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="2490" width="250" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
